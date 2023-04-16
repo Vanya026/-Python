@@ -1,0 +1,5 @@
+n = input().split()
+a = set(n[0])
+b = set(n[1])
+c = a.intersection(b)
+print(True if len(a) == len(b) == len(c) else False)
